@@ -8,10 +8,10 @@
 		<version>4.0.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>systementor</groupId>
+	<groupId>DannyPhan</groupId>
 	<artifactId>Del3-Integrationstester-main</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>integrationApiTestDemo</name>
+	<name>Del3-Integrationstester-main</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
@@ -58,13 +58,13 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <configuration>
-                    <argLine>--enable-native-access=ALL-UNNAMED</argLine>
-                </configuration>
-            </plugin>
+<!--            <plugin>-->
+<!--                <groupId>org.apache.maven.plugins</groupId>-->
+<!--                <artifactId>maven-surefire-plugin</artifactId>-->
+<!--                <configuration>-->
+<!--                    <argLine>&#45;&#45;enable-native-access=ALL-UNNAMED</argLine>-->
+<!--                </configuration>-->
+<!--            </plugin>-->
 		</plugins>
 	</build>
 
