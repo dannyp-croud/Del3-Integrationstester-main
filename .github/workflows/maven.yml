@@ -23,6 +23,7 @@ jobs:
       - name: Run tests
         run: mvn -B test
 
+
       - name: Test Summary
         uses: test-summary/action@v2
         with:
