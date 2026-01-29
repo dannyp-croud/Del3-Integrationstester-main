@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>systementor</groupId>
-	<artifactId>integrationApiTestDemo</artifactId>
+	<artifactId>Del3-Integrationstester-main</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>integrationApiTestDemo</name>
 	<description>Demo project for Spring Boot</description>
