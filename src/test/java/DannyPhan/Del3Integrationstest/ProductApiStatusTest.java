@@ -1,4 +1,4 @@
-package systementor.integrationApiTestDemo;
+package DannyPhan.Del3Integrationstest;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.web.reactive.function.client.WebClient;
@@ -21,6 +21,7 @@ public class ProductApiStatusTest {
         if (response == null) throw new AssertionError();
         assertEquals(200, response.getStatusCode().value());
 
+        // Nedan kod kan användas till fördel att checka av att returnerad statuskod börjar på 2xx
         //assertTrue(response.getStatusCode().is2xxSuccessful());
     }
 }

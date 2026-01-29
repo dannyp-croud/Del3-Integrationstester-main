@@ -1,4 +1,4 @@
-package systementor.integrationApiTestDemo;
+package DannyPhan.Del3Integrationstest;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.web.reactive.function.client.WebClient;
@@ -26,8 +26,10 @@ public class ProductApiStructureTest {
         assertNotNull(response);
         assertTrue(response.length > 0);
 
+
         var product = response[0];
 
+        // Verifierar att product innehåller olika attribut och egenskaper
         assertTrue(product.containsKey("title"));
         assertTrue(product.containsKey("price"));
         assertTrue(product.containsKey("description"));
