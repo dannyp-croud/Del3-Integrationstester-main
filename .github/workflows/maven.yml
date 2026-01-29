@@ -20,8 +20,8 @@ jobs:
           distribution: 'temurin'
           cache: maven
 
-      - name: Run tests
-        run: mvn -B test
+      - name: Build and Test
+        run: mvn clean test
 
       - name: Test Summary
         uses: test-summary/action@v2
